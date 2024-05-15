@@ -14,12 +14,12 @@ import androidx.core.view.MenuProvider
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.example.leafbudtodo.MainActivity
-import com.example.leafbudtodo.R
-import com.example.leafbudtodo.adapter.NoteAdapter
-import com.example.leafbudtodo.databinding.FragmentHomeBinding
-import com.example.leafbudtodo.model.Note
-import com.example.leafbudtodo.viewmodel.NoteViewModel
+import com.example.growmatetodo.MainActivity
+import com.example.growmatetodo.R
+import com.example.growmatetodo.adapter.NoteAdapter
+import com.example.growmatetodo.databinding.FragmentHomeBinding
+import com.example.growmatetodo.model.Note
+import com.example.growmatetodo.viewmodel.NoteViewModel
 
 
 class HomeFragment : Fragment(R.layout.fragment_home), SearchView.OnQueryTextListener, MenuProvider {

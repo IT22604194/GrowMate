@@ -10,7 +10,7 @@
         android:label="GrowMate"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GrowMateToDo"
+        android:theme="@style/Theme.GrowMateTodo"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
